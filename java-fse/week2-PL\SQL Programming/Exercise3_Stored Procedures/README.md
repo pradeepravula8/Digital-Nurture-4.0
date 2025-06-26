@@ -70,12 +70,12 @@ This project simulates three real-world banking scenarios using:
 
 ##  File Structure
 
-| File Name                           | Purpose                                                                 |
-|-------------------------------------|-------------------------------------------------------------------------|
-| `create_tables_and_sample_data.sql` | Creates `customers` and `loans` tables and inserts initial data         |
-| `scenario1_discount.sql`            | Applies 1% interest discount for senior citizens                        |
-| `scenario2_vip.sql`                 | Flags customers as VIP based on balance                                 |
-| `scenario3_reminders.sql`           | Sends reminder messages for upcoming loan due dates                     |
+| File Name                              | Purpose                                                                 |
+|----------------------------------------|-------------------------------------------------------------------------|
+| `   create_tables.sql`                     | Creates `customers` and `loans` tables and inserts initial data         |
+| `scenario1_process_monthly_interest.sql `  | Applies 1% interest discount for senior citizens                        |
+| `scenario2_update_employee_bonus.sql`      | Flags customers as VIP based on balance                                 |
+| `scenario3_transfer_funds.sql`             | Sends reminder messages for upcoming loan due dates                     |
 
 
 
@@ -89,6 +89,6 @@ This project simulates three real-world banking scenarios using:
 
 ##   How to Run
 
-1. Run `create_tables_and_sample_data.sql` to create tables and insert test data.
-2. Execute each scenario file (`scenario1_discount.sql`, etc.) to simulate operations.
+1. Run `create_tables.sql` to create tables and insert test data.
+2. Execute each scenario file (`scenario1_process_monthly_interest.sql`, etc.) to simulate operations.
 3. Make sure DBMS_OUTPUT is enabled to see reminder messages and logs.
