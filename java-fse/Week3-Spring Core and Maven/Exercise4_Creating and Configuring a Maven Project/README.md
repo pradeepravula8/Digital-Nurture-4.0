@@ -2,38 +2,39 @@
  
 This is a Spring-based Java application demonstrating Dependency Injection, AOP (Aspect-Oriented Programming), and WebMVC configuration using XML in a Maven project structure.
 
-## 📆 Overview
-This project is designed as part of Exercise 4 to learn:
+## 📆 Overview:
 
-How to set up a Maven-based Java application
+->This project is designed as part of Exercise 4 to learn:
 
-Configure Spring’s Context, AOP, and WebMVC modules
+->How to set up a Maven-based Java application
 
-Define beans using applicationContext.xml
+->Configure Spring’s Context, AOP, and WebMVC modules
 
-Use exec-maven-plugin to run the application
+->Define beans using applicationContext.xml
 
-### 🎓 Learning Objectives
-Create and configure a Maven project from scratch
+->Use exec-maven-plugin to run the application
 
-Add Spring dependencies via pom.xml
+### 🎓 Learning Objectives:
 
-Use XML to wire beans and configure dependencies
+->Create and configure a Maven project from scratch
 
-Implement a layered architecture using Controller, Service, and Repository
+->Add Spring dependencies via pom.xml
 
-Use AOP (e.g., logging with method execution)
+->Use XML to wire beans and configure dependencies
 
-Setup Maven plugins for Java 1.8
+->Implement a layered architecture using Controller, Service, and Repository
 
-### 📊 Technologies Used
-Tool/Technology	Purpose
-Java 8+	Programming Language
-Spring Context	Dependency Injection
-Spring AOP	Aspect-Oriented Programming
-Spring WebMVC	Web Layer Architecture
-Maven	Build & Dependency Management
-VS Code / IntelliJ	Development IDE
+->Setup Maven plugins for Java 1.8
+
+### 📊 Technologies Used:
+
+->Tool/Technology	Purpose
+->Java 8+	Programming Language
+->Spring Context	Dependency Injection
+->Spring AOP	Aspect-Oriented Programming
+->Spring WebMVC	Web Layer Architecture
+->Maven	Build & Dependency Management
+->VS Code / IntelliJ	Development IDE
 
 📁 Project Structure
 
