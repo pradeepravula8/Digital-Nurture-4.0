@@ -1,86 +1,88 @@
-### 📚 Library Management System (Spring Framework - Maven & XML Config)
- 
-This is a Spring-based Java application demonstrating Dependency Injection, AOP (Aspect-Oriented Programming), and WebMVC configuration using XML in a Maven project structure.
+# Library Management System (Spring Framework with XML Configuration)
 
-## 📆 Overview:
+This is a Spring Framework application that demonstrates Dependency Injection, AOP, and WebMVC using XML configuration. It simulates a layered backend architecture for a Library Management System.
 
-->This project is designed as part of Exercise 4 to learn:
+---
 
-->How to set up a Maven-based Java application
+## 📆 Overview
 
-->Configure Spring’s Context, AOP, and WebMVC modules
+This project is part of an exercise to learn how to set up a Spring-based Java application using Maven and XML configuration. It includes the following components:
 
-->Define beans using applicationContext.xml
+* LibraryController: Handles the request logic (simulated without web endpoints)  
+* BookService: Handles service-layer logic  
+* BookRepository: Simulates data persistence  
+* LoggingAspect: Demonstrates AOP  
+* Spring XML Configuration: Connects beans using `applicationContext.xml`  
+* Maven: For dependency management and build lifecycle  
 
-->Use exec-maven-plugin to run the application
+---
 
-### 🎓 Learning Objectives:
+## 🎓 Learning Objectives
 
-->Create and configure a Maven project from scratch
+* Understand Spring's Inversion of Control (IoC) and Dependency Injection (DI)  
+* Use AOP concepts (e.g., method logging)  
+* Configure beans using `applicationContext.xml`  
+* Structure a Maven-based Java project  
+* Run a Spring application using the `exec-maven-plugin`  
 
-->Add Spring dependencies via pom.xml
+---
 
-->Use XML to wire beans and configure dependencies
+## 📊 Technologies Used
 
-->Implement a layered architecture using Controller, Service, and Repository
+| Tool/Technology    | Purpose                         |
+| ------------------ | ------------------------------- |
+| Java 8+            | Programming Language            |
+| Spring Context     | Dependency Injection (DI)       |
+| Spring AOP         | Logging & Cross-cutting Logic   |
+| Spring WebMVC      | Web Layer Architecture          |
+| Maven              | Project & Dependency Management |
+| VS Code / IntelliJ | Development IDE                 |
 
-->Setup Maven plugins for Java 1.8
+---
 
-### 📊 Technologies Used:
+## 📁 Project Structure
 
-->Tool/Technology	Purpose
-->Java 8+	Programming Language
-->Spring Context	Dependency Injection
-->Spring AOP	Aspect-Oriented Programming
-->Spring WebMVC	Web Layer Architecture
-->Maven	Build & Dependency Management
-->VS Code / IntelliJ	Development IDE
 
-📁 Project Structure
-
-librarymanagement/
-├── pom.xml                              
+LibraryManagement/
+├── pom.xml # Maven configuration
 └── src/
-    ├── main/
-    │   ├── java/
-    │   │   └── com/example/library/
-    │   │       ├── LibraryManagementApplication.java   # Main class
-    │   │       ├── controller/
-    │   │       │   └── LibraryController.java
-    │   │       ├── service/
-    │   │       │   └── BookService.java
-    │   │       ├── repository/
-    │   │       │   └── BookRepository.java
-    │   │       
-    │   │                     
-    │   └── resources/
-    │       └── applicationContext.xml                  
-    └── test/
-        └── java/
-            └── com/example/library/
-                └── AppTest.java                        # (Optional) Unit test
+├── main/
+│ ├── java/
+│ │ └── com/example/library/
+│ │ ├── LibraryManagementApplication.java # Main class
+│ │ ├── controller/
+│ │ │ └── LibraryController.java
+│ │ ├── service/
+│ │ │ └── BookService.java
+│ │ ├── repository/
+│ │ │ └── BookRepository.java
+│ |
+│ └── resources/
+│ └── applicationContext.xml # Spring bean configuration
+└── test/
+└── java/
+└── com/example/library/
 
 
 
-### 🚀 How to Run the Project
-✅ Prerequisites
-Java 8 installed and configured
+---
 
-Maven installed
+## 🚀 How to Run the Project
 
-IDE (e.g., IntelliJ, VS Code)
+### ✅ Prerequisites
 
-✅ Steps
-1.Clone/Download the Project
+* Java 8 or later installed  
+* Maven installed and configured  
+* IDE like VS Code or IntelliJ
 
-2.Build the Project
+### ✅ Steps
 
-bash
+1. Clone the Project (or download ZIP)
 
-'''mvn clean install
+2. Build the Project:
 
-3.Run the Application
+```bash
+mvn clean install
 
-''''mvn exec:java
 
 
