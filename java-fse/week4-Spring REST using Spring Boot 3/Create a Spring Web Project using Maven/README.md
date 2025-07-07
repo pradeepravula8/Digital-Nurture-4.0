@@ -71,5 +71,7 @@ spring-learn/
 
    ```bash
    cd spring-learn
-2. Run the Spring Boot App
+2. Run the Spring Boot App:
+
+   ```bash
 mvn spring-boot:run
