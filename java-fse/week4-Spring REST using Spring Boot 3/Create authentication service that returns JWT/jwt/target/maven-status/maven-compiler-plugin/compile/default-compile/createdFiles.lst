@@ -1,0 +1,5 @@
+com\example\springlearn\WebserviceApplication.class
+com\example\springlearn\config\SecurityConfig.class
+com\example\springlearn\model\AuthRequest.class
+com\example\springlearn\util\JwtUtil.class
+com\example\springlearn\controller\AuthenticationController.class
