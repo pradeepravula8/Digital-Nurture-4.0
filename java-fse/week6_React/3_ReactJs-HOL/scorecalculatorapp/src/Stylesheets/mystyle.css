@@ -1,0 +1,38 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: brown;
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: crimson;
+}
+
+.purple {
+  color: purple;
+}
+
+.green {
+  color: green;
+}
+
+.value {
+  margin-left: 5px;
+}
