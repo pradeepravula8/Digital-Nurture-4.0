@@ -1,0 +1,2 @@
+Welcome to Git Demo!
+This is my first file added to the GitLab repository.
